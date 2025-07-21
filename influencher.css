@@ -171,7 +171,8 @@ nav ul li{
     background-size: 90%;
     background-repeat:no-repeat; 
     width: 70%;
-    margin-bottom: 5px; 
+    margin: 10px 60px;
+    
     }
     .banner-text-section{
         text-align: center;
@@ -182,15 +183,14 @@ nav ul li{
 
     /* sponsor section */
     .sponsor-section{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        align-items: center;
-        justify-items: center;
-        
-        
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 20px;
+       
     }
     .sponsor-img{
-        max-width:50%;
+        max-width:20%;
     }
     /* card section */
     .Collection-card-container{
@@ -200,6 +200,11 @@ nav ul li{
     .Featured-section{
         flex-direction: column;
         align-items: center;
+    }
+    .Featured-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
     }
     .Featured-text-section{
         max-width: 80%;
