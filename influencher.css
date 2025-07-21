@@ -1,0 +1,152 @@
+
+/* shared style */
+    .container{
+        max-width: 1040px;
+        margin: 10px auto;
+    }
+
+/* nav start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-ul-container{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+/* banner section  */
+.banner-section{
+    padding: 5px;
+    height: 550px;
+    display: flex;
+    gap: 120px;
+    background-image:url('./images/Circle\ design.svg');
+    background-size: 450px;
+    background-repeat:no-repeat;
+    background-position: right top;
+}
+.banner-img{
+    width: 440px;
+    margin-bottom: 5px;
+
+}
+.banner-text-section{
+    max-width: 550px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-decription{
+    font-weight: 500;
+}
+.banner-btn{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #E02C6D;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    
+}
+/* sponsor section */
+.sponsor-section{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+}
+/* collection section start */
+.Collection-section-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.Collection-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.Collection-card{
+    max-width: 210px;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.Collection-card-img{
+    max-width: 200px;
+}
+.product-name{
+    font-size: 28px;
+    margin: 0;
+    margin: 10px 0;
+}
+.product-price{
+    font-size: 20px;
+    margin: 0;
+    margin: 7px 0;
+}
+.product-decription{
+    margin: 0;
+}
+.see-more-btn{
+    max-width: 1040px;
+    margin: 30px 200px;
+    color: #E02C6D;
+    text-align: right;
+}
+/* Featured products section */
+.Featured-section{
+    max-width: 1040px;
+    margin: 20px auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.Featured-section-title{
+    color: #0A0826;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Featured-section-decription{
+    color: #6C6C6C;
+    font-weight: bold;
+}
+.Featured-img{
+    max-width: 300px;
+}
+.Featured-text-section{
+    max-width: 500px;
+}
+.Featured-btn{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #E02C6D;
+    width: 150px;
+    border: none;
+    padding: 10px 20px;
+}
+/* footer section */
+.footer-section{
+    color: #FFFFFF;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+.footer-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-decription{
+    color: #D9DBE1;
+}
