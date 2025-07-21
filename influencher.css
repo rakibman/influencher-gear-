@@ -76,6 +76,7 @@ nav ul li{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    justify-items: center;
 }
 .Collection-card{
     max-width: 210px;
