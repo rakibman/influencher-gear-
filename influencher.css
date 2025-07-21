@@ -29,12 +29,13 @@ nav ul li{
     height: 550px;
     display: flex;
     gap: 120px;
-    background-image:url('./images/Circle\ design.svg');
-    background-size: 450px;
-    background-repeat:no-repeat;
-    background-position: right top;
+    
+    /* background-position: right top; */
 }
 .banner-img{
+    background-image:url('./images/Circle\ design.svg');
+    background-size: 450px;
+    background-repeat:no-repeat; 
     width: 440px;
     margin-bottom: 5px;
 
@@ -150,4 +151,19 @@ nav ul li{
 }
 .footer-decription{
     color: #D9DBE1;
+}
+@media screen and (max-width: 576px) {
+    /* navigation saction */
+    .nav-container,
+    .nav-ul-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* header section */
+    .banner-section{
+        flex-direction: column;
+        
+    }
+
+
 }
